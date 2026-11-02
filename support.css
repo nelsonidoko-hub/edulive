@@ -1,0 +1,293 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Quicksand:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Noto+Sans+JP:wght@200;300;400&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Quicksand:wght@300;400;500&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Quicksand:wght@300;400;500&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Noto+Sans+JP:wght@200;300;400&family=Noto+Sans+Nandinagari&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500&family=Quicksand:wght@300;400;500&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Noto+Sans+JP:wght@200;300;400&family=Noto+Sans+Nandinagari&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500&family=Quicksand:wght@300;400;500&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+
+
+.TM{
+    margin: 4% 35%;
+}
+.TM h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+}
+.TM .for{
+    width: 100vh;
+    margin: 10% -40%;
+    height: 7vh;
+}
+.TM .for .cla{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.TM .for input{
+    width: 600px;
+    font-weight: lighter;
+}
+.desk nav ul{
+    display: flex;
+    /* margin-top: -15%; */
+    justify-content: center;
+    width: 100%; 
+}
+.mat  a{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(126, 121, 121);
+}
+
+.mat{
+    margin:2% 7%;
+    margin-right: 9%; 
+    margin-top: -0%;
+    margin-bottom: 8%;    
+    font-family: 'Open Sans', sans-serif;     
+}
+.mat p{
+    text-transform: uppercase;
+    color: rgb(131, 131, 122);
+    font-size: 1em;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.mat .material-symbols-outlined{
+    font-weight: lighter;
+    font-size: 4em;
+    margin-left: 30%;
+}
+.TM .for i{
+    /* margin-top: -0%; */
+    font-size: 1.6em;
+}
+#sol{
+    font-size: 2em;
+    color: rgb(252, 211, 211);
+}
+#supp{
+    font-size: 1.8em;
+    font-weight: lighter;
+}
+#t{
+    font-size: 1em;
+    font-weight: lighter;
+}
+.subt1{
+    display: flex;
+    /* justify-content: center; */
+    background-color: rgb(209, 218, 221);
+    border: 1px solid rgb(209, 218, 221);;
+    border-width: 100%;
+    /* height: 40vh; */
+    /* margin-top: -6%; */
+    margin-bottom: 0%;
+}
+.subt1i{
+    font-family: 'Nanum Gothic', sans-serif;
+    width: 100%;
+    margin-left:10%;
+}
+.subt1i p{
+    margin-bottom: 5%;
+    margin-top: 5%;
+    font-size: 1.5em ;
+}
+#bb{
+    font-size: 0.6em;
+    margin-top: -9%;
+    color: red;
+}
+.subt1i nav ul li{
+    margin-bottom: 3%;
+    list-style: none;
+}
+.subt1i nav ul a{
+    font-family: 'Nanum Gothic', sans-serif;
+    color: black;
+    /* font-size: 0.3em; */
+    text-decoration: none;
+}
+.subt1i nav ul li a:hover{
+    animation-duration: 5s;
+    animation-direction: reverse;
+    background-color: red;
+}
+span i{
+    color: red;
+    margin-left: 2%;
+}
+.desk2{
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+.desk2{
+    display: flex;
+    overflow: hidden;
+    /* justify-content: space-between; */
+    margin:3% 8%; 
+    justify-content: center;
+    /* width: 100%;  */
+}
+.des{
+    overflow: hidden;
+    width: 100%;
+    margin: 5%;
+}
+.des nav ul i{
+    font-size: 2em;
+    margin-bottom: 6%;
+}
+.des nav ul{
+    /* margin: 5%; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: rgb(126, 121, 121);
+}
+.des nav ul a .material-symbols-outlined{
+    margin-bottom: 6%;
+    font-size: 2em;
+}
+.des nav ul a {
+    line-height: 1.4em;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+    width: 100%;
+    /* word-break: keep-all; */
+    color: rgb(126, 121, 121);
+
+}
+#cri{
+    margin-top: 3%;
+    width: 100%;
+    font-size: 0.8em;
+    line-height: 1.2em;
+}
+.bri{
+    margin-bottom: 4%;
+}
+.bri nav ul{
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(126, 121, 121);
+    border-left: none;
+    border-right: 0;
+    padding: 0.8%;
+}
+.bri nav ul li{
+    list-style: none;
+    text-align: center;
+    margin-right: 4%;
+    line-height: 1.3em;
+}
+.bri nav ul li a{
+    text-decoration: none;
+    font-size: 1em;
+    color: rgb(126, 121, 121);
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.fillup{
+    margin: 2%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.range a{
+    color: rgb(126, 121, 121);
+    display: flex;
+    width: 100%;
+    margin: 4%;
+    text-decoration: none;
+}
+.range .material-symbols-outlined{
+    font-size: 4em;
+    color: black;
+    font-weight: lighter;
+}
+.sur{
+    margin-left: 1.8%;
+    text-align: left;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.sur h1{
+    color: black;
+    font-weight: light;
+}
+.sur p{
+    line-height: 1.5em;
+    width: 75;
+    font-size: 1em;
+    /* margin-bottom: 1%; */
+}
+.askme{
+    justify-content: center;
+    margin: 8%;
+    
+}
+.askme p{
+    margin-bottom: 3%;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: rgb(126, 121, 121);
+    font-size: 1.4em;
+    font-weight: lighter;
+}
+.asme{
+    margin-left: 36%;
+}
+.asme button{
+    margin-right: 1%;
+    font-weight: bolder;
+    padding: 10px;
+    font-family: Oswald, sans-serif;
+    width: 20%;
+    /* font-size: 1em;     */
+    text-transform: uppercase; 
+    font-weight: bolder;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+.tutor{
+    position: fixed;
+    /* padding: 5%; */
+    display: block;
+    bottom: 5%;
+    right: 2%;
+  }
+  .tutor img{
+    width: 9%;
+    float: right;
+    background-color: white;
+    border: 1px solid rgb(233, 223, 223);
+    padding: 5%;
+    border-radius: 50%;
+  }
+  .asm button{
+   font-family: Oswald, sans-serif;
+    position: relative;
+    right: 80%;
+    margin-top: 4%;
+    right: 5%;
+    padding: 6%;
+    font-size: 1.2em;
+    width: 190px;
+    background-color: white;
+    border: 1px solid rgb(233, 223, 223);
+    border-radius: 8px;
+}
+
+
+    /* FONTS */
+ Nanum Gothic, sans-serif
+Noto Sans JP, sans-serif
+Noto Sans Nandinagari,sans-serif
+Nunito Sans, sans-serif
+Open Sans, sans-serif
+Oswald, sans-serif
+Quicksand, sans-serif
+fRoboto Condensed, sans-serif 

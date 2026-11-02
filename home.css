@@ -1,0 +1,1473 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    /* width: 100%; */
+    box-sizing: content-box;
+    /* overflow: hidden; */
+}
+
+  .header{
+    /* margin: 2% 5%;   */
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  box-shadow: 2px 0px 20px 0px rgb(194, 186, 170);
+  height: 59px;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+.all1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6%;
+}
+.bar{
+    display: none;
+}
+.user{
+    display: none;
+}
+
+.image{
+    color: rgb(44, 36, 49);
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: -1%;
+    margin-left: -2%;
+}
+
+.image img{
+    width: 90px;
+    margin-top: -4%;
+}
+
+.image h1{
+    margin-left: -7%;
+    margin-top: 7%;
+}
+.list{
+    margin-top: 3.5%;
+}
+.list nav{
+    word-spacing: 1em;
+    color: black;
+}
+
+.list li{
+    list-style: none;
+}
+
+.list li a{
+    text-decoration: none;
+    color: black;
+}
+
+.list nav ul li a:hover{
+    
+    color: black;
+    text-decoration: underline;
+   
+}
+.get{
+    /* justify-content: space-between; */
+    margin-right: 10%;
+    margin-top: 1.5%;
+    /* width: 100%; */
+}
+.get nav ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.btn{
+    /* padding: 2%; */
+    border-radius: 5px;
+    margin-left: -15%;
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 1em;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+.get i{
+    font-size: 1.8em;
+    margin-right: 0.3em;
+    word-spacing: 70em;
+}
+span .material-symbols-outlined{
+    /* font-size: 1.4em; */
+    margin-left: 28%;
+    /* margin-top: 1%; */
+}
+/* SECTION MIDDLE */
+#arrow{
+    display: none;
+}
+.fuoye{
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    padding: 1%;
+    border: 1px solid ;
+}
+.fuoye h1{
+    font-size: 1.8em;
+    margin-left: 5%;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+form{
+    margin-right: 2%;
+    display: flex;
+}
+input{
+    width: 450px;
+    min-height: 2px;
+    font-size: larger;
+    /* padding: %; */
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    /* outline: none; */
+}
+form .cla{
+    position: relative;
+    /* height: 30px; */
+    width: 10%;
+    border: 1px solid;
+    text-align: center;
+    background-color: rgb(71, 71, 71);
+}
+.cla i{
+    margin-top: 20%;
+    color: white;
+}
+.arr{
+    display: none;
+}
+
+.man{
+    display: flex;
+    justify-content: space-between;
+    /**/
+    border: 1px solid white;
+    box-shadow: rgb(44, 36, 49) 2px  4px 5px 2px;
+    background-color: white;
+    width: 100%;
+}
+.man1{
+    /* margin-left: 5%;  */
+    margin: 1% 5%;
+
+}
+.man1 nav ul{
+
+    display: flex;
+    justify-content: space-between;
+}
+.man1 nav ul li{
+    list-style: none;
+    margin-right: 0.5em;
+}
+.man1 nav ul li a{
+    
+    text-decoration: none;
+    font-size: large;
+}
+.man2{
+    /* margin-right: 2%;  */
+    margin: 1% 5%;
+
+}
+.man2 nav ul{
+    margin-right: 0%;
+
+    display: flex;
+    justify-content: space-between;
+}
+.man2 nav ul li{
+    list-style: none;
+    margin-right: 2em;
+}
+.man2 nav ul li a{
+    /* word-spacing: 2em; */
+    text-decoration: none;
+    font-size: 1.2em;
+}
+.man2 nav ul li a i{
+    font-size: 0.8em;
+}
+.third1{
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: space-between;;
+    margin-bottom: 4%;
+    width: 100%; 
+}
+
+.third-small{
+    margin-left: 7%;
+    margin-top: 7%;
+}
+.third-small img{
+    margin-top: -9%;
+    margin-left: -4%;
+    width: 25%;
+}
+.third-small h1{
+    font-size: 4em;
+    font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+.third-small p{
+    font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    margin-top: 4%;
+}
+.small{
+    margin: 7% 7%;
+    background-color: white;
+    border: 1px solid white;
+    border-top-right-radius: 39px;
+    border-top-left-radius: 38px;
+}
+.small h3{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Quicksand', sans-serif; */
+    font-size: 1.4em;
+    background-color: rgb(194, 191, 191);
+    color: white;
+    padding: 8%;
+    border-top-right-radius: 39px;
+    border-top-left-radius: 38px;
+}
+.small1{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    display: flex;
+    margin: 5%;
+    justify-content: space-between;
+    /* padding: 25%; */
+    margin-bottom: 30vh;
+}
+.small1 img{
+    width: 50px;
+    border: 1px solid rgb(212, 207, 207);
+    border-top-right-radius: 9px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 9px;
+    border-bottom-left-radius: 8px;
+    
+}
+.small1 p{
+    font-size: 1.2em;
+    width: 100%;
+    margin-left: 2%;
+    width: 100%;
+    border: 1px solid rgb(199, 184, 184);
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.small2{
+    display: flex;
+    width: 100%;
+    margin: 3%;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+}
+.small2 input{
+    width: 55%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 18px;
+    border-radius: 10px;
+    /* margin-left: -5%; */
+}
+.small2 button{
+    width: 25%;
+    margin-right: 4%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-weight: 500;
+    font-size: 1.3em;
+    padding: 1px; 
+    border-radius: 10px; 
+}
+.small2 i{
+  margin-top: 8%;
+  /* margin-left: 5%;  */
+}
+
+.fles{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    flex-direction: row;
+    /* padding: 3%; */
+    margin: 2%;
+   
+}
+.lex{   
+    margin-top: 15%;
+}
+.lex p{
+    font-weight: bolder;
+    margin-top: -4%;
+}
+.flesi{
+    margin: 1%;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 15px;
+    /* padding: 5%; */
+    width: 50%;
+    background-color: rgb(78, 73, 73);
+    color: white;
+}
+
+.one p{
+    /* font-size: 2.3em; */
+    margin: 8%;
+    line-height: 2em;
+    margin-top: -1%;
+}
+.flesi img{
+    margin-bottom: 5%;
+    width: 15%;
+}
+.lex p{
+    /* font-size: 9.7em; */
+    margin: 8%;
+}
+.lex h1{
+    margin-bottom: 2%;
+}
+.exp{
+    text-align: center;
+}
+.arra{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    margin: 7% 0;
+}
+.arr1 img{
+    width: 30em;
+    margin-top: -20%;
+    margin-left: -20%;
+}
+.arr2{
+    margin-left: -12%;
+    font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+.arr2 h1{
+    font-size: 3em;
+    font-weight: 900;
+}
+.arr2 p{
+    font-weight: bolder;
+    line-height: 1.5em;
+    font-size: 1.3em;
+}
+.arr3 img{
+    width: 20em;
+    margin-top: 3%;
+    margin-left: -5%;
+}
+.arr4{
+    margin-top: 23%;
+    margin-left: -2%;
+    font-family: 'Open Sans', sans-serif;
+}
+.arr4 h1{
+    font-size: 3em;
+    font-weight: 900;
+}
+.arr4 p{
+    font-weight: bolder;
+    line-height: 1.5em;
+    font-size: 1.3em;
+}
+.ig{
+    margin-top: -80%;
+    margin-right: -90%;
+}
+.ig img{
+    
+    width: 15%;
+}
+
+
+.arr-3 img{
+    margin-top: -7%;
+    margin-left: 7%;
+    width: 10%;
+}
+.two{
+    display: flex;
+}
+.clo3 img{
+    width: 100%;
+}
+.clo3{
+    margin-left: 3%;
+    margin-right: 18%;
+    margin-top: -12%;
+}
+.clo2 img{
+    width: 20em;
+}
+.clo2{
+    margin-right: -5%;
+    margin-top: -5%;
+}
+.clo1 img{
+    width: 40%;
+    justify-content: left;
+
+}
+.clo1{
+    display: flex;
+    margin-left: 4%;
+    margin-top: -5%;
+}
+.word{
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 6%;
+    width: 32%;
+    height: 40vh;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+.word h1{
+        font-size: 1.7em;
+    /* word-break: break-all; */
+}
+.word p{
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.wor{
+    
+    text-align: center;
+    margin-left: 2%;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+.wor h1{
+    width: 32%;
+    height: 40vh;
+    margin-top: 6%;
+    margin-left: 7em;
+    font-size: 1.7em;
+}
+.wor p{
+    width: 32%;
+    height: 4vh;
+    margin-bottom: 7em;
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.rem img{
+    float: right;
+    width: 45em;
+    margin-top: -5%;
+}
+.btns nav ul{
+    display: flex;
+    justify-content: center;
+    margin: 4%;
+}
+.btns nav ul button{
+    margin: 2%;
+}
+#b{
+   width: 24%;
+   cursor: pointer;
+   padding: 1.6%; 
+   font-size: 1em;
+   font-weight: 500;
+   background-color: rgb(231, 231, 79);
+   color: #000;
+   border-radius: 8px;
+   font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+#c{
+    cursor: pointer;
+    width: 24%;
+    padding: 1.6%; 
+    font-size: 1em;
+    font-weight: 900;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+#b:hover{
+    background-color: rgb(90, 81, 81);
+    color: white;
+    transition: 1ms;
+}
+#c:hover{
+    background-color: black;
+    color: white;
+    transition: 1ms;
+}
+
+.general{
+    display: flex;
+    margin-right: 1%;
+    margin-top: 7%;
+    padding: 3%;
+    justify-content: space-between;
+}
+.gen img{
+    width: 35em;
+    margin-top: -8%;
+}
+.ral{
+    display: flex;
+    width: 100%;
+    font-size: 1.2em;
+}
+.gee{
+    border-left: 1px solid rgb(160, 154, 154);
+    margin-left: -1%;
+    color: red;
+    margin-top: 1%;
+    height: 39vh;
+}
+.gee li{
+    color: rgb(107, 105, 105);
+    margin-top: 5.1vh;
+    font-size: 1.3em;
+    margin-left: -13%;
+}
+.hh h1{
+    color: rgb(109, 107, 107);
+    margin-top: -5%;
+    font-size: 1.8em;
+    font-weight: 900;
+}
+#btn{
+    margin-top: 5%;
+    margin-left: -10%;
+}
+.hh a{
+    border: 1px solid gainsboro;
+    color: rgb(175, 175, 30);
+    text-decoration: none;
+    padding: 1%;
+    font-size: 1.2em;
+    font-weight: 300;
+    margin: 5%;
+    width: 12em;
+}
+#btn :hover{
+    border-radius: 5px;
+    background-color: rgb(175, 175, 30);
+    color: rgb(53, 52, 52);
+}
+#pi{
+    margin-top: -0.1%;
+}
+.ral nav ul li p{
+    color: rgb(119, 112, 112);
+    font-weight: 300;
+    margin-top: 3.7%;
+    list-style: none;
+    font-weight: 2em;
+}
+.ral nav ul li{
+    margin-top: 2%;
+    list-style: none;
+}
+
+.abb{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 3%;
+    background-color: rgb(122, 115, 115);
+    color: white;
+    width: 100;
+    height: 80vh;
+}
+.ab{
+    margin-top: 4%;
+    width: 60%;
+    margin-left: 9%;
+}
+.ab h1{
+    font-size: 3em;
+    margin-bottom: 5%;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+.bord{
+    border-bottom: 3px solid white;
+    margin-top: -5%;
+    width: 25%;
+}
+.ab #pp{
+    font-size: 1.5em;
+    font-weight: 900;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+.ab p{
+    line-height: 1.7em;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: 1.2em;
+    font-weight: 900; 
+}
+#dot{
+    width: 25%;
+    padding: 2%;
+    font-weight: 900;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: 1.5em;
+    color: gray;
+    border: solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 5%;
+}
+.ab button:hover{
+    background-color: #000;
+    color: white;
+    border-radius: 5%;
+}
+.out img{
+    width: 30em;
+    margin-top: -10%;
+}
+
+.save{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 2%;
+    
+}
+.save1{
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 50px;
+    box-shadow: inset;
+    width: 50%; 
+    margin: 7%;
+    border-top-right-radius: 39px;
+    background-color: whitesmoke;
+    padding: 1em;
+    border-top-color: white;
+    border-top-left-radius: 39px;
+}
+.save1 h1{
+    margin-top: -8%;
+    background-color: rgb(189, 187, 183);
+    color: black;
+    border: 1px  yellow solid;
+    /* width: 90%; */
+    padding: 2%;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: 2em;
+    text-align: center;
+    border-radius: 25px;
+}
+.save1 p{
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.4em;
+    line-height: 2em;
+    margin: 4%;
+    /* height: 30vh; */
+}
+.save2{
+    margin: 5%;
+    margin-top: 6%;
+    width: 60%;
+}
+.save2 p{
+   margin-top: 5%;
+   font-size: 1.3em;
+   color: rgb(110, 105, 105);
+   font-family: 'Edu VIC WA NT Beginner', cursive;
+    
+}
+.al{
+    display: flex;
+    justify-content: center;
+}
+.price{
+    padding: 5%;
+    margin: 1%;
+    width: 25%;
+    height: 80vh;
+    border: 1px solid gray;
+}
+.price1{
+    margin-left: -18%;
+    margin-top: -19%;
+    margin-bottom: 20%;
+    text-align: center;
+    font-size: 1.3em;
+}
+.price1 h3{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+}
+.price2{
+    margin-top: 15%;
+    margin-bottom: 15%;
+    font-weight: lighter;
+}
+.price2 nav ul li{
+
+    margin-top: 5%;
+    font-size: 1.1em;
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+.price3-1{
+    margin-top: 90%;
+    margin-left: -25%;
+}
+.price3-1 h4{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 2%;
+}
+.price3-1 p{
+    text-align: center;
+    font-size: 1em;
+    margin-left: 5%;
+    text-decoration: line-through;
+    margin-bottom: 4%;
+}
+#sel{
+    width: 50%;
+    padding: 1%;
+    margin-left: 25%;
+    font-size: 1.3em;
+}
+.price3-2{
+    margin-top: 55%;
+    margin-left: -25%;
+}
+.price3-2 h4{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 2%;
+}
+.price3-2 p{
+    text-align: center;
+    font-size: 1em;
+    margin-left: 5%;
+    text-decoration: line-through;
+    margin-bottom: 4%;
+}
+#sel{
+    width: 50%;
+    padding: 1%;
+    margin-left: 25%;
+    font-size: 1.3em;
+}
+.price3-3{
+    margin-top: 25%;
+    margin-left: -25%;
+}
+.price3-3 h4{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 2%;
+}
+.price3-3 p{
+    text-align: center;
+    font-size: 1em;
+    margin-left: 5%;
+    text-decoration: line-through;
+    margin-bottom: 4%;
+}
+
+.enr{
+    text-align: center;
+    padding: 2%;
+    background-image: url(./img/shades.png);
+    background-size: contain;
+    background-position: center;
+    font-size: 1.5em;
+    
+    margin: 3%;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+    background-repeat: no-repeat;
+}.enr a{text-decoration: none; color: white;}
+
+/*FOOTER*/
+.fit{
+    display: flex;
+    margin-top: 1%;
+    width: 100%;
+}
+.fit2{
+    margin-right: 2%;
+    width: 80%;
+}
+.last{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.foot{
+    margin-top: -90vh;
+    margin: 3%;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+.line{
+    width: 50%;
+    margin-top: -3%;
+    border-bottom: 4px solid rgb(208, 214, 196);
+}
+.foot2{
+    width: 100;
+    margin: 3.5%;
+    margin-left: -7%;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+.foot1{
+    width: 100;
+    margin: 3%;
+    margin-left: 2%;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+.foot1 h1{
+    margin-left: 6.5%;
+    margin-top: 5%;
+}
+.foot1 .line{
+    width: 70%;
+    margin-top: -1%;
+    margin-left: 6.5%;
+    border-bottom: 4px solid rgb(179, 189, 159);
+}
+.nav{
+    margin-top: 5%;
+}
+.nav nav ul{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.nav nav ul li{
+    list-style: none;
+    margin-top: 5px;
+}
+.nav nav ul li a{
+    color: white;
+    font-size: 1.4em;
+    text-decoration: none;
+}
+.nav1{
+    margin-top: 5.5%;
+    display: flex;
+    justify-content: space-around;
+}
+.nav1 nav ul{
+    margin-top: -9%;
+    margin-right: -9%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.tp{
+    margin-right: -13%;
+}
+.nav1 nav ul li{
+    list-style: none;
+    margin-top: 5px;
+}
+.nav1 nav ul li a{
+    color: white;
+    font-size: 1.4em;
+    text-decoration: none;
+}
+.lit{
+    margin-top: -8%;
+    /* margin-left: 10%; */
+  
+}
+.lit nav ul li{
+    color: white;
+    list-style: none;
+    margin: 5%;
+    font-size: 1.5em;
+}
+.lit nav ul{
+    display: flex;
+    justify-content: center;
+
+    /* color: white; */
+}
+fieldset{
+    margin-top: 7%;
+    margin-bottom: 3%;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+legend{
+    margin-left: 40%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+footer{
+    border: 1px solid;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    background-color: rgb(61, 58, 58);
+    color: white;
+}
+footer p{
+    text-align: center;
+}
+.rap{
+    display: none;
+}
+.soc{
+    display: none;
+}
+
+@media(max-width:990px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .patapata{
+        width: 100%;
+        overflow: hidden;
+    }
+    footer{
+        height: 80vh;
+    }
+    .soc{
+        display: block;
+    }
+    .header {
+        display: flex;
+    }
+    .list{
+        display: none;
+    }
+    .get{
+        display: none;
+    }
+    .image{
+        justify-items: center;
+        justify-content: center;
+        margin-left: 18%;
+    }
+    .image img{
+        /* margin-top: 5%; */
+        width: 100px;
+        height: 90px;
+    }
+    .ima{
+        display: flex;
+        justify-content: space-between;
+    }
+    .bar{
+        align-items: center;
+        margin-top: -5%;
+        font-size: 1.5em;
+        height: 45px;
+        padding: 5px;
+        position: relative;
+        display: inline-block;
+    }
+    .dropbtn {
+        background-color: #3498DB;
+        color: white;
+        padding: 10px;
+        font-size: 15px;
+        margin-top: 19%;
+        margin-left: -55%;
+        border: none;
+        cursor: pointer;
+    }
+      .dropbtn i{
+        font-size: 2.4em;
+      }
+      .dropbtn:hover, .dropbtn:focus {
+        background-color: #2980B9;
+      }
+      .dropdown-content {
+        display: none;
+        top: 70px;
+        left: -28px;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 490px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      /* Links inside the dropdown */
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        font-size: 1em;
+        display: block;
+      }
+      
+      /* Change color of dropdown links on hover */
+      .dropdown-content a:hover {background-color: #ddd;}
+      
+      /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+      .show {display:block;}
+    .btn{
+        margin-left: 3%;
+        margin-bottom: 8%;
+    }
+    .user{
+        display: flex;
+        float: right;
+        margin-left: 20%;   
+        margin-top: 2%;
+        font-size: 2.5em;
+    }
+    #navbar.active{
+        right: 0px;
+    }
+    #navbar li{
+        margin-bottom: 25px;
+    }
+
+    /* SECTION MIDDLE */
+.fuoye{
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    padding: 1px;
+    /* border: 1px solid ; */
+    /* width: 100%; */
+}
+.app{
+    display: flex;
+    justify-content: space-between;
+}
+#arrow{
+    display: block;
+}
+.fuoye h1{
+    font-size: 1.8em;
+    margin-left: 5%;
+    color: white;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Quicksand', sans-serif;
+}
+.rap{
+    display: flex;
+    right: 50%;
+    /* align-items: center; */
+    margin-top: -15%;
+    font-size: 1em;
+    height: 45px;
+    padding: 1px;
+    position: relative;
+    /* display: inline-block; */
+}
+.drobtn {
+    margin-right: 30%;
+    height: 0%;
+    border: none;
+    cursor: pointer;
+}
+  .drobtn i{
+    margin-top: -20%;
+    font-size: 4.5em;
+    /* background-color: blue; */
+    color: white;
+    border-top: 0px;
+  }
+  .drobtn:hover, .drobtn:focus {
+    background-color: #2980B9;
+  }
+  .drodown-content {
+    display: none; 
+    top: 52px;
+    right: 28px;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 450px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .drodown-content li{
+    list-style: none;
+  }
+  /* Links inside the dropdown */
+  .drodown-content li a {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    margin-left: 5%;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 1.2em;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  /* .drodown-content a:hover {background-color: #ddd;} */
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+form {
+    margin-right: 8%;
+    display: none;
+}
+.clar{
+    position: relative;
+    top: 17%;
+    height: 30px;
+    width: 10%;
+}
+.clar i{
+    font-size: 1.4em;
+    margin-top: 93%;
+    color: white;
+}
+.man{
+    display: none;
+}
+.third{
+    /* width: 100%; */
+    /* height: 50vh; */
+    box-sizing: content-box;
+}
+.small1 p{
+    font-size: 1em;
+}    
+.small2{
+    width: 100%;
+    justify-content: space-between;
+
+}
+.small2 i{
+    margin-left: -1%;
+}
+.small2 input{
+    width: 50%;
+}
+#smallb{
+    margin-right: 4vh;
+    width: 20%;
+}
+.third-small{
+    display: none;
+}
+.fles{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    padding: 3%;
+    margin: 4%;
+   
+}
+.lex{   
+    margin-top: 15%;
+}
+.fles p{
+    font-size: 0.6em;
+    font-weight: bolder;
+    margin-top: -4%;
+}
+.flesi{
+    margin: 2%;
+    font-size: 2em;
+    font-weight: bolder;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 15px;
+    width: 45.5%;
+    background-color: rgb(78, 73, 73);
+    color: white;
+}
+}
+
+@media(max-width:379px){
+    .rap{
+        display: flex;
+        right: 50%;
+        /* align-items: center; */
+        margin-top: -15%;
+        font-size: 1em;
+        height: 45px;
+        padding: 1px;
+        position: relative;
+        /* display: inline-block; */
+    }
+    .drobtn {
+        margin-right: 30%;
+        height: 0%;
+        border: none;
+        cursor: pointer;
+    }
+      .drobtn i{
+        margin-top: -20%;
+        font-size: 4.5em;
+        /* background-color: blue; */
+        color: white;
+        border-top: 0px;
+      }
+      .drobtn:hover, .drobtn:focus {
+        background-color: #2980B9;
+      }
+      .drodown-content {
+        display: none; 
+        top: 52px;
+        right: 52px;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 300px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      .drodown-content li{
+        list-style: none;
+      }
+      /* Links inside the dropdown */
+      .drodown-content li a {
+        font-family: 'Open Sans', sans-serif;
+        color: black;
+        margin-left: 5%;
+        padding: 12px 16px;
+        text-decoration: none;
+        font-size: 1.2em;
+        display: block;
+      }
+      
+      /* Change color of dropdown links on hover */
+      /* .drodown-content a:hover {background-color: #ddd;} */
+      
+      /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+      .show {display:block;}
+    form {
+        margin-right: 8%;
+        display: none;
+    }
+    .clar{
+        position: relative;
+        top: 17%;
+        height: 30px;
+        width: 10%;
+    }
+    .clar i{
+        font-size: 1.4em;
+        margin-top: 93%;
+        color: white;
+    }
+    .man{
+        display: none;
+    }
+    
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .header{
+        /* width: 100%; */
+    }
+    .third1{
+        width: 100%;
+        /* height: 50vh; */
+        box-sizing: content-box;
+    }
+    .small1 p{
+        font-size: 1em;
+    }
+    
+    .small2{
+        /* width: 100%; */
+        justify-content: space-between;
+    }
+    .small2 i{
+        margin-left: -1%;
+    }
+    .small2 input{
+        width: 50%;
+    }
+    #smallb{
+        margin-right: 4vh;
+        width: 20%;
+    }
+    .third-small{
+        display: none;
+    }
+    .fles{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+        padding: 3%;
+        margin: 4%;
+       
+    }
+    .lex{   
+        margin-top: 15%;
+    }
+    .fles p{
+        font-size: 0.6em;
+        font-weight: bolder;
+        margin-top: -4%;
+    }
+    .flesi{
+        margin: 2%;
+        font-size: 2em;
+        font-weight: bolder;
+        text-align: center;
+        border: 1px solid;
+        border-radius: 15px;
+        width: 45.5%;
+        background-color: rgb(78, 73, 73);
+        color: white;
+        /* text-align: left; */
+    }
+    
+    .one p{
+        font-size: 1.5em;
+        margin: 8%;
+        line-height: 2em;
+        margin-top: -1%;
+    }
+    .flesi img{
+        margin-bottom: 5%;
+        width: 15%;
+    }
+    .flesi p{
+        font-size: 0.3em;
+        line-height: 1.6em;
+        margin: 8%;
+    }
+    .flesi h1{
+        margin-bottom: 2%;
+        font-size: 0.5em;
+    }
+    
+    .exp{
+        font-size: 1em;
+    }
+    .arra{
+        display: block;
+        margin-left: -3%;
+    }
+    .arr2{
+        margin-top: -19%;
+        margin-left: 3%;
+    }
+    .arr3{
+        display: none;
+    }
+    .arr4{
+        display: none;
+    }
+    .clock{
+        flex-wrap: wrap;
+    }
+    .clo1 img{
+        /* display: none; */
+        height: 30vh;
+    }
+    .word{
+        font-size: 0.7em;
+        width: 100%;
+    }
+    .rem img{
+        height: 30vh;
+        width: 60%;
+    }
+    .wor{
+        font-size: 7px;
+        font-weight: 7;
+        margin-top: -20%;
+        margin-left: -9%;
+        /* width: 100%; */
+    }
+    .btns nav ul{
+        /* display: block; */
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    #b{
+        width: 80%;
+        padding: 5%;
+    }
+    #c{
+        width: 80%;
+        padding: 5%;
+    }
+    .general{
+        display: block;
+    }
+    .gee{
+        margin-top: 8%;
+        height: 45vh;
+    }
+    .abb{
+        /* display: block; */
+        flex-direction: column-reverse;
+        font-size: 0.4em;
+    }
+    .save{
+        display: block;
+    }
+    .save1{
+        width: 100%;
+    }
+    .save2{
+        width: 100%;
+    }
+    .al{
+        display: inline;
+
+    }
+    .price{
+        width: 60%;
+        margin: 24%;
+    }
+}
